@@ -30,7 +30,7 @@ export class Icon {
   constructor(id: string, size: number[], anchor: number[], popAnchor: number[]) {
     this.id = id;
     this.asset = L.icon({
-      iconUrl: `images/markers/${id}.png`,
+      iconUrl: `images/map/markers/${id}.png`,
       iconSize: size as L.PointExpression,
       iconAnchor: anchor as L.PointExpression,
       popupAnchor: popAnchor as L.PointExpression

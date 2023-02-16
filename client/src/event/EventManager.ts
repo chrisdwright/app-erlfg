@@ -14,6 +14,7 @@ export class EventManager {
 
   public map_clickedMap = new EventListener();
   public map_clickedMarker = new EventListener();
+  public map_changedLayer = new EventListener();
 
   public menu_clickedTab = new EventListener();
 

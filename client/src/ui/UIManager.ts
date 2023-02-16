@@ -1,16 +1,16 @@
 import { App } from "../App";
 import { Menu } from "./menu/Menu";
-import { Platform } from "./platform/Platform";
+import { Toolbar } from "./toolbar/Toolbar";
 
 export class UIManager {
 
   private app: App;
 
-  public platform: Platform;
+  public toolbar: Toolbar;
   public menu: Menu;
 
   constructor(app: App) {
-    this.platform = new Platform(app);
+    this.toolbar = new Toolbar(app);
     this.menu = new Menu(app);
   }
 

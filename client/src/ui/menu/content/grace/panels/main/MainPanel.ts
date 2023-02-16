@@ -35,7 +35,7 @@ export class MainPanel extends BasePanel {
     this.containerDiv.style.alignItems = "center";
 
     const topBar = document.createElement("img");
-    topBar.src = "images/content/bar-horizontal.png";
+    topBar.src = "images/menu/bar-horizontal.png";
     this.containerDiv.appendChild(topBar);
 
     this.titleDiv = document.createElement("div");
@@ -50,7 +50,7 @@ export class MainPanel extends BasePanel {
     this.containerDiv.appendChild(this.titleDiv);
 
     const bottomBar = document.createElement("img");
-    bottomBar.src = "images/content/bar-horizontal.png";
+    bottomBar.src = "images/menu/bar-horizontal.png";
     this.containerDiv.appendChild(bottomBar);
 
     this.activities = new Activities(this.app, this);

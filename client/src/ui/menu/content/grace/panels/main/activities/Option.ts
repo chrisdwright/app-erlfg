@@ -49,7 +49,7 @@ export class Option {
     this.containerDiv.style.fontSize = "16px";
     this.containerDiv.style.fontWeight = "bold";
     this.containerDiv.style.textShadow = "1px 1px #000000";
-    this.containerDiv.style.background = "url('images/markers/idle.png') no-repeat";
+    this.containerDiv.style.background = "url('images/map/markers/idle.png') no-repeat";
     this.containerDiv.style.backgroundSize = "auto 100%";
     this.containerDiv.innerText = "Area";
     //this.containerDiv.style.background = "url('images/content/activities-icon.png') no-repeat";
@@ -61,12 +61,12 @@ export class Option {
   }
 
   private onMouseOver() {
-    this.containerDiv.style.background = "url('images/markers/grace2.png') no-repeat";
+    this.containerDiv.style.background = "url('images/map/markers/grace2.png') no-repeat";
     this.containerDiv.style.backgroundSize = "auto 100%";
   }
 
   private onMouseOut() {
-    this.containerDiv.style.background = "url('images/markers/idle.png') no-repeat";
+    this.containerDiv.style.background = "url('images/map/markers/idle.png') no-repeat";
     this.containerDiv.style.backgroundSize = "auto 100%";
   }
 

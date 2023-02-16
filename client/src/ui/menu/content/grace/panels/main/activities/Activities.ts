@@ -45,18 +45,6 @@ export class Activities {
     // create area option
     const option = new Option(this.app, this, RequestType.AREA);
     this.options.push(option);
-
-    /*
-    // create boss options
-    //var markerId = this.app.data.markerId;
-    //var markerData = this.app.data.getMarkerById(markerId);
-    for (var i = 0; i < markerData.bosses.length; i++) {
-      var bossData = this.app.data.getBossById(markerData.bosses[i]);
-      var bossOption = new Option(this.app, this);
-      bossOption.setText(bossData.name);
-      this.options.push(bossOption);
-    }
-    */
   }
 
   public selectOption(type: RequestType, bossId: number = 0) {
@@ -73,18 +61,18 @@ export class Activities {
     this.parent.containerDiv.appendChild(this.containerDiv);
 
     const top = document.createElement("img");
-    top.src = "images/content/frame-single-top.png";
+    top.src = "images/menu/frame-single-top.png";
     this.containerDiv.appendChild(top);
 
     this.optionsDiv = document.createElement("div");
     this.optionsDiv.style.paddingLeft = "40px";
     this.optionsDiv.style.display = "flex";
     this.optionsDiv.style.flexDirection = "column";
-    this.optionsDiv.style.backgroundImage = "url('images/content/frame-single-middle.png')";
+    this.optionsDiv.style.backgroundImage = "url('images/menu/frame-single-middle.png')";
     this.containerDiv.appendChild(this.optionsDiv);
 
     const bottom = document.createElement("img");
-    bottom.src = "images/content/frame-single-bottom.png";
+    bottom.src = "images/menu/frame-single-bottom.png";
     this.containerDiv.appendChild(bottom);
   }
 

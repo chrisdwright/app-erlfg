@@ -68,7 +68,7 @@ export class Content {
     this.containerDiv.style.transition = "width 0.5s";
     this.containerDiv.style.pointerEvents = "auto";
     this.containerDiv.style.overflow = "hidden";
-    this.containerDiv.style.backgroundImage = "url('images/tabs/content-bg.jpg')";
+    this.containerDiv.style.backgroundImage = "url('images/menu/bg.jpg')";
     this.menu.containerDiv.appendChild(this.containerDiv);
 
     this.contents.push(new HomeContent(this.app, this));

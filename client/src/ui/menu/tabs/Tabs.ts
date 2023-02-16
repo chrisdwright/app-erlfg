@@ -29,7 +29,7 @@ export class Tabs {
   }
 
   public setSelected(type: ContentType) {
-    this.borderDiv.style.backgroundImage = "url('images/tabs/" + type + "-border.jpg')";
+    this.borderDiv.style.backgroundImage = "url('images/menu/tabs/border-" + type + ".jpg')";
   }
 
   private init() {
@@ -48,7 +48,7 @@ export class Tabs {
     this.borderDiv.style.width = "8px";
     this.borderDiv.style.height = "100%";
     this.borderDiv.style.pointerEvents = "auto";
-    this.borderDiv.style.backgroundImage = "url('images/tabs/0-border.jpg')";
+    this.borderDiv.style.backgroundImage = "url('images/menu/tabs/border-0.jpg')";
     this.containerDiv.appendChild(this.borderDiv);
 
     // tabs

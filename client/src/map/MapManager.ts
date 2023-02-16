@@ -1,5 +1,6 @@
 import * as L from "leaflet";
 import { App } from "../App";
+import { MapLayer } from "../constants/CMap";
 import { Icons } from "./Icons";
 import { Marker } from "./Marker";
 
@@ -9,7 +10,11 @@ export class MapManager {
 
   public icons: Icons;
   public map: L.Map;
+  public aboveLayer: L.Layer;
+  public belowLayer: L.Layer;
   public markers: Marker[] = [];
+
+  public layer: MapLayer = MapLayer.ABOVE_GROUND;
 
   constructor(app: App) {
     this.app = app;
@@ -17,6 +22,23 @@ export class MapManager {
 
     this.createMap();
     this.createMarkers();
+  }
+
+  public setLayer(layer: MapLayer) {
+    if (this.layer == layer) return;
+    this.layer = layer;
+
+    switch (this.layer) {
+      case MapLayer.ABOVE_GROUND:
+        this.belowLayer.removeFrom(this.map);
+        this.aboveLayer.addTo(this.map);
+        break;
+      case MapLayer.BELOW_GROUND:
+        this.aboveLayer.removeFrom(this.map);
+        this.belowLayer.addTo(this.map);
+        break;
+    }
+    this.app.event.map_changedLayer.emit();
   }
 
   private createMap() {
@@ -50,12 +72,19 @@ export class MapManager {
     var bounds = new L.LatLngBounds(sw, ne);
     this.map.setMaxBounds(bounds)
 
-    L.tileLayer("images/map/above/{z}/{x}/{y}.jpg", {
+    this.aboveLayer = L.tileLayer("images/map/above/{z}/{x}/{y}.jpg", {
       minZoom: 2,
       maxZoom: 6,
       noWrap: true,
       bounds: bounds
     }).addTo(this.map);
+
+    this.belowLayer = L.tileLayer("images/map/below/{z}/{x}/{y}.jpg", {
+      minZoom: 2,
+      maxZoom: 6,
+      noWrap: true,
+      bounds: bounds
+    });
 
   }
 
