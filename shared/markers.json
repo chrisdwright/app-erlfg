@@ -1,0 +1,1676 @@
+{
+  "edits": [
+    "191 - Squire's Residence is missing? taken out for now."
+  ],
+  "areas": [
+    ["limgrave", 1, 56],
+    ["caelid", 57, 96],
+    ["liurnia", 97, 162],
+    ["gelmir", 163, 190],
+    ["altus", 192, 231],
+    ["mountains", 232, 266],
+    ["farum", 267, 276],
+    ["siofra", 0, 0],
+    ["ainsel", 0, 0],
+    ["deeproot", 0, 0]
+  ],
+  "markers": [
+    {
+      "i": 1,
+      "n": "The First Step",
+      "x": 110.6, "y": -171.4,
+      "b": [3]
+    },
+    {
+      "i": 2,
+      "n": "Stranded Graveyard",
+      "x": 111.3, "y": -172.1,
+      "b": [1]
+    },
+    {
+      "i": 3,
+      "n": "Cave of Knowledge",
+      "x": 111.9, "y": -171.6,
+      "b": [2]
+    },
+    {
+      "i": 4,
+      "n": "Coastal Cave",
+      "x": 107.4, "y": -171.4,
+      "b": [4]
+    },
+    {
+      "i": 5,
+      "n": "Church of Elleh",
+      "x": 110.3, "y": -169.7,
+      "b": [3]
+    },
+    {
+      "i": 6,
+      "n": "Seaside Ruins",
+      "x": 114.7, "y": -173.9,
+      "b": []
+    },
+    {
+      "i": 7,
+      "n": "Agheel Lake South",
+      "x": 118.4, "y": -174.0,
+      "b": []
+    },
+    {
+      "i": 8,
+      "n": "Waypoint Ruins Cellar",
+      "x": 119.2, "y": -170.1,
+      "b": [10]
+    },
+    {
+      "i": 9,
+      "n": "Stormfoot Catacombs",
+      "x": 107.8, "y": -167.0,
+      "b": [5]
+    },
+    {
+      "i": 10,
+      "n": "Groveside Cave",
+      "x": 109.7, "y": -166.8,
+      "b": [6]
+    },
+    {
+      "i": 11,
+      "n": "Limgrave Tunnels",
+      "x": 112.9, "y": -167.0,
+      "b": [7]
+    },
+    {
+      "i": 12,
+      "n": "Agheel Lake North",
+      "x": 113.7, "y": -165.8,
+      "b": [8, 9]
+    },
+    {
+      "i": 13,
+      "n": "Murkwater Cave",
+      "x": 116.2, "y": -165.6,
+      "b": [12]
+    },
+    {
+      "i": 14,
+      "n": "Church of Dragon Communion",
+      "x": 106.0, "y": -175.1,
+      "b": []
+    },
+    {
+      "i": 15,
+      "n": "Fort Haight West",
+      "x": 124.4, "y": -171.5,
+      "b": []
+    },
+    {
+      "i": 16,
+      "n": "Mistwood Outskirts",
+      "x": 120.7, "y": -165.0,
+      "b": []
+    },
+    {
+      "i": 17,
+      "n": "Third Church of Marika",
+      "x": 125.2, "y": -161.6,
+      "b": []
+    },
+    {
+      "i": 18,
+      "n": "Artist's Shack",
+      "x": 118.7, "y": -163.0,
+      "b": []
+    },
+    {
+      "i": 19,
+      "n": "Gatefront",
+      "x": 111.3, "y": -164.8,
+      "b": []
+    },
+    {
+      "i": 20,
+      "n": "Murkwater Catacombs",
+      "x": 116.3, "y": -161.8,
+      "b": [11]
+    },
+    {
+      "i": 21,
+      "n": "Murkwater Coast",
+      "x": 116.7, "y": -163.3,
+      "b": []
+    },
+    {
+      "i": 22,
+      "n": "Summonwater Village Outskirts",
+      "x": 120.7, "y": -159.2,
+      "b": [17]
+    },
+    {
+      "i": 23,
+      "n": "Highroad Cave",
+      "x": 116.0, "y": -157.2,
+      "b": [13]
+    },
+    {
+      "i": 24,
+      "n": "Saintsbridge",
+      "x": 115.2, "y": -158.7,
+      "b": []
+    },
+    {
+      "i": 25,
+      "n": "Deathtouched Catacombs",
+      "x": 113.6, "y": -158.5,
+      "b": [14]
+    },
+    {
+      "i": 26,
+      "n": "Divine Tower of Limgrave",
+      "x": 119.4, "y": -153.8,
+      "b": []
+    },
+    {
+      "i": 27,
+      "n": "Warmaster's Shack",
+      "x": 110.8, "y": -161.4,
+      "b": [22]
+    },
+    {
+      "i": 28,
+      "n": "Stormhill Shack",
+      "x": 107.1, "y": -162.4,
+      "b": []
+    },
+    {
+      "i": 29,
+      "n": "Castleward Tunnel",
+      "x": 105.6, "y": -162.8,
+      "b": [27]
+    },
+    {
+      "i": 30,
+      "n": "Margit, the Fell Omen",
+      "x": 104.4, "y": -163.5,
+      "b": []
+    },
+    {
+      "i": 31,
+      "n": "Stormveil Main Gate",
+      "x": 103.5, "y": -162.8,
+      "b": []
+    },
+    {
+      "i": 32,
+      "n": "Gateside Chamber",
+      "x": 102.8, "y": -162.9,
+      "b": []
+    },
+    {
+      "i": 33,
+      "n": "Stormveil Cliffside",
+      "x": 101.7, "y": -163.6,
+      "b": []
+    },
+    {
+      "i": 34,
+      "n": "Limgrave Tower Bridge",
+      "x": 104.0, "y": -161.0,
+      "b": []
+    },
+    {
+      "i": 35,
+      "n": "Rampart Tower",
+      "x": 100.7, "y": -161.4,
+      "b": []
+    },
+    {
+      "i": 36,
+      "n": "Liftside Chamber",
+      "x": 100.6, "y": -159.4,
+      "b": [18]
+    },
+    {
+      "i": 37,
+      "n": "Secluded Cell",
+      "x": 101.9, "y": -158.3,
+      "b": [29]
+    },
+    {
+      "i": 38,
+      "n": "Godrick the Grafted",
+      "x": 101.1, "y": -157.5,
+      "b": []
+    },
+
+    {
+      "i": 39,
+      "n": "Bridge of Sacrifice",
+      "x": 120.5, "y": -178.7,
+      "b": []
+    },
+    {
+      "i": 40,
+      "n": "Impaler's Catacombs",
+      "x": 122.5, "y": -179.7,
+      "b": [25]
+    },
+    {
+      "i": 41,
+      "n": "Beside the Crater-Pocked Glade",
+      "x": 122.1, "y": -181.9,
+      "b": []
+    },
+    {
+      "i": 42,
+      "n": "Castle Morne Rampart",
+      "x": 120.1, "y": -184.2,
+      "b": [15, 26]
+    },
+    {
+      "i": 43,
+      "n": "Castle Morne Lift",
+      "x": 116.6, "y": -190.6,
+      "b": [16]
+    },
+    {
+      "i": 44,
+      "n": "Behind the Castle",
+      "x": 115.4, "y": -192.4,
+      "b": [16]
+    },
+    {
+      "i": 45,
+      "n": "Beside the Rampart Gaol",
+      "x": 115.0, "y": -193.3,
+      "b": [16]
+    },
+    {
+      "i": 46,
+      "n": "Morne Moangrave",
+      "x": 114.3, "y": -195.1,
+      "b": []
+    },
+    {
+      "i": 47,
+      "n": "Earthbore Cave",
+      "x": 117.4, "y": -179.4,
+      "b": [23]
+    },
+    {
+      "i": 48,
+      "n": "South of the Lookout Tower",
+      "x": 118.7, "y": -181.2,
+      "b": [19]
+    },
+    {
+      "i": 49,
+      "n": "Ailing Village Outskirts",
+      "x": 117.8, "y": -181.9,
+      "b": []
+    },
+    {
+      "i": 50,
+      "n": "Morne Tunnel",
+      "x": 115.5, "y": -184.2,
+      "b": [21]
+    },
+    {
+      "i": 51,
+      "n": "Tombsward Catacombs",
+      "x": 113.0, "y": -181.1,
+      "b": [20, 28]
+    },
+    {
+      "i": 52,
+      "n": "Church of Pilgrimage",
+      "x": 113.1, "y": -177.2,
+      "b": []
+    },
+    {
+      "i": 53,
+      "n": "Tombsward",
+      "x": 112.1, "y": -183.3,
+      "b": []
+    },
+    {
+      "i": 54,
+      "n": "Tombsward Cave",
+      "x": 109.2, "y": -182.6,
+      "b": [24]
+    },
+    {
+      "i": 55,
+      "n": "Fourth Church of Marika",
+      "x": 107.8, "y": -181.6,
+      "b": []
+    },
+    {
+      "i": 56,
+      "n": "Isolated Merchant's Shack",
+      "x": 106.9, "y": -185.1,
+      "b": []
+    },
+
+    {
+      "i": 57,
+      "n": "Smoldering Church",
+      "x": 125.7, "y": -154.5,
+      "b": []
+    },
+    {
+      "i": 58,
+      "n": "Rear Gael Tunnel Entrance",
+      "x": 126.7, "y": -157.2,
+      "b": []
+    },
+    {
+      "i": 59,
+      "n": "Gael Tunnel",
+      "x": 127.8, "y": -157.8,
+      "b": [65]
+    },
+    {
+      "i": 60,
+      "n": "Rotview Balcony",
+      "x": 128.3, "y": -155.8,
+      "b": []
+    },
+    {
+      "i": 61,
+      "n": "Minor Erdtree Catacombs",
+      "x": 130.3, "y": -153.3,
+      "b": [62, 58]
+    },
+    {
+      "i": 62,
+      "n": "Fort Gael North",
+      "x": 129.0, "y": -160.0,
+      "b": []
+    },
+    {
+      "i": 63,
+      "n": "Gaol Cave",
+      "x": 129.9, "y": -162.3,
+      "b": [70]
+    },
+    {
+      "i": 64,
+      "n": "Isolated Merchant's Shack (Dragonbarrow)",
+      "x": 133.7, "y": -151.9,
+      "b": []
+    },
+    {
+      "i": 65,
+      "n": "Caelem Ruins",
+      "x": 132.6, "y": -155.3,
+      "b": [63]
+    },
+    {
+      "i": 66,
+      "n": "Smoldering Wall",
+      "x": 133.7, "y": -158.9,
+      "b": []
+    },
+    {
+      "i": 67,
+      "n": "Astray from Caelid Highway North",
+      "x": 133.5, "y": -162.3,
+      "b": []
+    },
+    {
+      "i": 68,
+      "n": "Aeonia Swamp Shore",
+      "x": 134.7, "y": -163.3,
+      "b": []
+    },
+    {
+      "i": 69,
+      "n": "Caelid Highway South",
+      "x": 133.3, "y": -166.4,
+      "b": [52]
+    },
+    {
+      "i": 70,
+      "n": "Cathedral of Dragon Communion",
+      "x": 135.2, "y": -169.2,
+      "b": [56]
+    },
+    {
+      "i": 71,
+      "n": "Caelid Catacombs",
+      "x": 136.6, "y": -169.7,
+      "b": [72]
+    },
+    {
+      "i": 72,
+      "n": "Impassable Greatbridge",
+      "x": 141.4, "y": -171.7,
+      "b": []
+    },
+    {
+      "i": 73,
+      "n": "Chamber Outside the Plaza",
+      "x": 148.3, "y": -171.4,
+      "b": [75, 54]
+    },
+    {
+      "i": 74,
+      "n": "Redmane Castle Plaza",
+      "x": 148.1, "y": -170.6,
+      "b": []
+    },
+    {
+      "i": 75,
+      "n": "Starscourge Radahn",
+      "x": 150.2, "y": -163.0,
+      "b": []
+    },
+    {
+      "i": 76,
+      "n": "Southern Aeonia Swamp Bank",
+      "x": 138.8, "y": -165.8,
+      "b": [64]
+    },
+    {
+      "i":77 ,
+      "n": "Heart of Aeonia",
+      "x": 138.4, "y": -162.1,
+      "b": []
+    },
+    {
+      "i": 78,
+      "n": "Inner Aeonia",
+      "x": 138.1, "y": -160.9,
+      "b": [74]
+    },
+    {
+      "i": 79,
+      "n": "Abandoned Cave",
+      "x": 137.3, "y": -157.7,
+      "b": [71]
+    },
+    {
+      "i": 80,
+      "n": "Deep Siofra Well",
+      "x": 136.8, "y": -155.0,
+      "b": []
+    },
+    {
+      "i": 81,
+      "n": "Dragonbarrow West",
+      "x": 136.8, "y": -153.8,
+      "b": []
+    },
+    {
+      "i": 82,
+      "n": "Divine Tower of Caelid: Center",
+      "x": 140.1, "y": -151.3,
+      "b": []
+    },
+    {
+      "i": 83,
+      "n": "Divine Tower of Caelid: Basement",
+      "x": 140.5, "y": -150.9,
+      "b": [61]
+    },
+    {
+      "i": 84,
+      "n": "Sellia Crystal Tunnel",
+      "x": 139.1, "y": -156.7,
+      "b": [67]
+    },
+    {
+      "i": 85,
+      "n": "Chair-Crypt of Sellia",
+      "x": 140.4, "y": -157.6,
+      "b": []
+    },
+    {
+      "i": 86,
+      "n": "Sellia Backstreets",
+      "x": 141.0, "y": -158.3,
+      "b": [57]
+    },
+    {
+      "i": 87,
+      "n": "Sellia Under-Stair",
+      "x": 140.6, "y": -159.5,
+      "b": []
+    },
+    {
+      "i": 88,
+      "n": "Church of the Plague",
+      "x": 143.1, "y": -160.7,
+      "b": []
+    },
+    {
+      "i": 89,
+      "n": "Sellia Hideaway",
+      "x": 144.7, "y": -157.5,
+      "b": [69]
+    },
+    {
+      "i": 90,
+      "n": "Fort Faroth",
+      "x": 145.6, "y": -156.7,
+      "b": [55]
+    },
+    {
+      "i": 91,
+      "n": "Dragonbarrow Fork",
+      "x": 144.1, "y": -152.8,
+      "b": [59]
+    },
+    {
+      "i": 92,
+      "n": "Dragonbarrow Cave",
+      "x": 146.8, "y": -153.2,
+      "b": [68]
+    },
+    {
+      "i": 93,
+      "n": "War-Dead Catacombs",
+      "x": 151.4, "y": -152.4,
+      "b": [66]
+    },
+    {
+      "i": 94,
+      "n": "Lenne's Rise",
+      "x": 151.7, "y": -151.0,
+      "b": [60]
+    },
+    {
+      "i": 95,
+      "n": "Farum Greatbridge",
+      "x": 149.2, "y": -146.5,
+      "b": [53]
+    },
+    {
+      "i": 96,
+      "n": "Bestial Sanctum",
+      "x": 146.2, "y": -142.6,
+      "b": [73]
+    },
+
+    {
+      "i": 97,
+      "n": "Lake-Facing Cliffs",
+      "x": 98.8, "y": -155.8,
+      "b": []
+    },
+    {
+      "i": 98,
+      "n": "Stillwater Cave",
+      "x": 99.1, "y": -155.0,
+      "b": [35]
+    },
+    {
+      "i": 99,
+      "n": "Liurnia Highway South",
+      "x": 99.3, "y": -152.5,
+      "b": []
+    },
+    {
+      "i": 100,
+      "n": "Cliffbottom Catacombs",
+      "x": 100.4, "y": -149.8,
+      "b": [46]
+    },
+    {
+      "i": 101,
+      "n": "Liurnia Highway North",
+      "x": 98.8, "y": -147.1,
+      "b": []
+    },
+    {
+      "i": 102,
+      "n": "Gate Town Bridge",
+      "x": 95.7, "y": -142.4,
+      "b": [33]
+    },
+    {
+      "i": 103,
+      "n": "Jarburg",
+      "x": 99.8, "y": -139.7,
+      "b": []
+    },
+    {
+      "i": 104,
+      "n": "Liurna Tower Bridge",
+      "x": 99.3, "y": -137.9,
+      "b": []
+    },
+    {
+      "i": 105,
+      "n": "Divine Tower of Liurna",
+      "x": 105.4, "y": -137.0,
+      "b": []
+    },
+    {
+      "i": 106,
+      "n": "Study Hall Entrance",
+      "x": 98.2, "y": -136.9,
+      "b": []
+    },
+    {
+      "i": 107,
+      "n": "Artist's Shack",
+      "x": 96.2, "y": -136.6,
+      "b": [41]
+    },
+    {
+      "i": 108,
+      "n": "Eastern Liurnia Lake Shore",
+      "x": 94.4, "y": -135.1,
+      "b": []
+    },
+    {
+      "i": 109,
+      "n": "Eastern Tableland",
+      "x": 95.9, "y": -131.6,
+      "b": []
+    },
+    {
+      "i": 110,
+      "n": "Church of Vows",
+      "x": 90.3, "y": -130.6,
+      "b": []
+    },
+    {
+      "i": 111,
+      "n": "Ruined Labyrinth",
+      "x": 93.2, "y": -126.7,
+      "b": []
+    },
+    {
+      "i": 112,
+      "n": "Raya Lucaria Crystal Tunnel",
+      "x": 88.8, "y": -126.3,
+      "b": [34]
+    },
+    {
+      "i": 113,
+      "n": "Mausoleum Compound",
+      "x": 91.7, "y": -124.7,
+      "b": [50]
+    },
+    {
+      "i": 114,
+      "n": "Frenzied Flame Village Outskirts",
+      "x": 95.7, "y": -121.7,
+      "b": []
+    },
+    {
+      "i": 115,
+      "n": "Black Knife Catacombs",
+      "x": 97.6, "y": -121.2,
+      "b": [39, 38]
+    },
+    {
+      "i": 116,
+      "n": "Church of Inhibition",
+      "x": 92.0, "y": -119.2,
+      "b": []
+    },
+    {
+      "i": 117,
+      "n": "Grand Lift of Dectus",
+      "x": 94.6, "y": -115.7,
+      "b": [99]
+    },
+    {
+      "i": 118,
+      "n": "Bellum Church",
+      "x": 87.0, "y": -120.0,
+      "b": [42]
+    },
+    {
+      "i": 119,
+      "n": "East Raya Lucaria Gate",
+      "x": 85.5, "y": -124.2,
+      "b": []
+    },
+    {
+      "i": 120,
+      "n": "Liurnia Lake Shore",
+      "x": 95.5, "y": -153.0,
+      "b": []
+    },
+    {
+      "i": 121,
+      "n": "Slumbering Wolf's Shack",
+      "x": 88.9, "y": -151.5,
+      "b": []
+    },
+    {
+      "i": 122,
+      "n": "Lakeside Crystal Cave",
+      "x": 89.0, "y": -150.2,
+      "b": [47]
+    },
+    {
+      "i": 123,
+      "n": "Cathedral of Manus Sellus",
+      "x": 82.8, "y": -147.1,
+      "b": [45]
+    },
+    {
+      "i": 124,
+      "n": "Village of the Albinaurics",
+      "x": 79.7, "y": -147.9,
+      "b": [36]
+    },
+    {
+      "i": 125,
+      "n": "Moonlight Altar",
+      "x": 79.0, "y": -149.6,
+      "b": []
+    },
+    {
+      "i": 126,
+      "n": "Altar South",
+      "x": 75.1, "y": -154.3,
+      "b": []
+    },
+    {
+      "i": 127,
+      "n": "Converted Tower",
+      "x": 77.4, "y": -144.0,
+      "b": [49]
+    },
+    {
+      "i": 128,
+      "n": "Road's End Catacomb",
+      "x": 74.5, "y": -142.3,
+      "b": [43]
+    },
+    {
+      "i": 129,
+      "n": "Revenger's Shack",
+      "x": 75.1, "y": -138.4,
+      "b": []
+    },
+    {
+      "i": 130,
+      "n": "Foot of the Four Belfries",
+      "x": 73.8, "y": -131.6,
+      "b": []
+    },
+    {
+      "i": 131,
+      "n": "The Four Belfries",
+      "x": 75.8, "y": -128.2,
+      "b": []
+    },
+    {
+      "i": 132,
+      "n": "Northern Liurnia Lake Shore",
+      "x": 78.0, "y": -122.5,
+      "b": []
+    },
+    {
+      "i": 133,
+      "n": "Road to the Manor",
+      "x": 79.7, "y": -119.8,
+      "b": [44]
+    },
+    {
+      "i": 134,
+      "n": "Main Caria Manor Gate",
+      "x": 82.6, "y": -117.0,
+      "b": []
+    },
+    {
+      "i": 135,
+      "n": "Manor Lower Level",
+      "x": 81.7, "y": -115.2,
+      "b": []
+    },
+    {
+      "i": 136,
+      "n": "Manor Upper Level",
+      "x": 84.5, "y": -115.3,
+      "b": [48]
+    },
+    {
+      "i": 137,
+      "n": "Behind Caria Manor",
+      "x": 85.6, "y": -113.6,
+      "b": []
+    },
+    {
+      "i": 138,
+      "n": "Royal Moongazing Grounds",
+      "x": 82.3, "y": -113.0,
+      "b": []
+    },
+    {
+      "i": 139,
+      "n": "Ranni's Chamber",
+      "x": 78.3, "y": -114.4,
+      "b": []
+    },
+    {
+      "i": 140,
+      "n": "Ranni's Rise",
+      "x": 77.7, "y": -114.5,
+      "b": []
+    },
+    {
+      "i": 141,
+      "n": "Laskyar Ruins",
+      "x": 93.1, "y": -148.7,
+      "b": []
+    },
+    {
+      "i": 142,
+      "n": "Scenic Isle",
+      "x": 89.3, "y": -146.3,
+      "b": [31]
+    },
+    {
+      "i": 143,
+      "n": "Boilprawn Shack",
+      "x": 88.2, "y": -143.4,
+      "b": []
+    },
+    {
+      "i": 144,
+      "n": "Folly on the Lake",
+      "x": 83.2, "y": -144.5,
+      "b": []
+    },
+    {
+      "i": 145,
+      "n": "Fallen Ruins of the Lake",
+      "x": 85.1, "y": -140.5,
+      "b": []
+    },
+    {
+      "i": 146,
+      "n": "Academy Gate Town",
+      "x": 90.4, "y": -140.2,
+      "b": []
+    },
+    {
+      "i": 147,
+      "n": "Temple Quarter",
+      "x": 78.2, "y": -136.8,
+      "b": []
+    },
+    {
+      "i": 148,
+      "n": "South Raya Lucaria Gate",
+      "x": 84.6, "y": -136.0,
+      "b": []
+    },
+    {
+      "i": 149,
+      "n": "Debate Parlor",
+      "x": 83.7, "y": -135.2,
+      "b": [51]
+    },
+    {
+      "i": 150,
+      "n": "Schoolhouse Classroom",
+      "x": 83.2, "y": -134.3,
+      "b": [32]
+    },
+    {
+      "i": 151,
+      "n": "Gate Town North",
+      "x": 85.8, "y": -132.9,
+      "b": [40]
+    },
+    {
+      "i": 152,
+      "n": "Church of the Cuckoo",
+      "x": 81.0, "y": -133.2,
+      "b": []
+    },
+    {
+      "i": 153,
+      "n": "Academy Crystal Cave",
+      "x": 79.6, "y": -133.1,
+      "b": [37]
+    },
+    {
+      "i": 154,
+      "n": "Raya Lucaria Grand Library",
+      "x": 81.9, "y": -132.1,
+      "b": []
+    },
+    {
+      "i": 155,
+      "n": "Crystalline Woods",
+      "x": 78.8, "y": -131.6,
+      "b": [30]
+    },
+    {
+      "i": 156,
+      "n": "Main Academy Gate",
+      "x": 81.4, "y": -131.0,
+      "b": []
+    },
+    {
+      "i": 157,
+      "n": "East Gate Bridge Trestle",
+      "x": 83.3, "y": -128.3,
+      "b": []
+    },
+    {
+      "i": 158,
+      "n": "Sorcerer's Isle",
+      "x": 80.3, "y": -126.0,
+      "b": []
+    },
+    {
+      "i": 159,
+      "n": "The Ravine",
+      "x": 85.9, "y": -118.8,
+      "b": []
+    },
+    {
+      "i": 160,
+      "n": "Ravine-Veiled Village",
+      "x": 92.7, "y": -114.0,
+      "b": []
+    },
+    {
+      "i": 161,
+      "n": "Ruin-Strewn Precipice",
+      "x": 93.0, "y": -113.2,
+      "b": []
+    },
+    {
+      "i": 162,
+      "n": "Ruin-Strewn Precipice Overlook",
+      "x": 91.7, "y": -113.2,
+      "b": []
+    },
+
+    {
+      "i": 163,
+      "n": "Magma Wyrm Makar",
+      "x": 89.9, "y": -113.0,
+      "b": []
+    },
+    {
+      "i": 164,
+      "n": "Abandoned Coffin",
+      "x": 90.0, "y": -111.5,
+      "b": [106]
+    },
+    {
+      "i": 165,
+      "n": "Unsightly Catacombs",
+      "x": 86.4, "y": -108.6,
+      "b": [88]
+    },
+    {
+      "i": 166,
+      "n": "Craftman's Shack",
+      "x": 88.6, "y": -107.1,
+      "b": []
+    },
+    {
+      "i": 167,
+      "n": "Seethewater River",
+      "x": 91.9, "y": -105.8,
+      "b": [90]
+    },
+    {
+      "i": 168,
+      "n": "Sage's Cave",
+      "x": 92.1, "y": -107.8,
+      "b": [78, 77]
+    },
+    {
+      "i": 169,
+      "n": "Guest Hall",
+      "x": 84.8, "y": -104.2,
+      "b": []
+    },
+    {
+      "i": 170,
+      "n": "Prison Town Church",
+      "x": 85.9, "y": -102.8,
+      "b": [104]
+    },
+    {
+      "i": 171,
+      "n": "Seethewater Terminus",
+      "x": 84.8, "y": -101.5,
+      "b": [87, 112]
+    },
+    {
+      "i": 172,
+      "n": "Road of Iniquity",
+      "x": 86.7, "y": -100.5,
+      "b": [97]
+    },
+    {
+      "i": 173,
+      "n": "Volcano Manor",
+      "x": 87.7, "y": -101.7,
+      "b": []
+    },
+    {
+      "i": 174,
+      "n": "Audience Pathway",
+      "x": 88.6, "y": -101.3,
+      "b": [120]
+    },
+    {
+      "i": 175,
+      "n": "Rykard, Lord of Blasphemy",
+      "x": 88.6, "y": -102.6,
+      "b": []
+    },
+    {
+      "i": 176,
+      "n": "Temple of Eiglay",
+      "x": 88.0, "y": -104.5,
+      "b": []
+    },
+    {
+      "i": 177,
+      "n": "Subterranean Inquisition Chamber",
+      "x": 89.7, "y": -103.4,
+      "b": [109]
+    },
+    {
+      "i": 178,
+      "n": "Ninth Mt. Gelmir Campsite",
+      "x": 88.6, "y": -98.4,
+      "b": [85]
+    },
+    {
+      "i": 179,
+      "n": "Volcano Cave",
+      "x": 89.6, "y": -95.4,
+      "b": [86]
+    },
+    {
+      "i": 180,
+      "n": "Seethewater Cave",
+      "x": 90.9, "y": -100.6,
+      "b": [107]
+    },
+    {
+      "i": 181,
+      "n": "Primeval Sorcerer Azur",
+      "x": 91.0, "y": -103.9,
+      "b": [98]
+    },
+    {
+      "i": 182,
+      "n": "Abductor Virgin",
+      "x": 91.3, "y": -105.1,
+      "b": []
+    },
+    {
+      "i": 183,
+      "n": "Wyndham Catacombs",
+      "x": 93.6, "y": -104.7,
+      "b": [108]
+    },
+    {
+      "i": 184,
+      "n": "Old Altus Tunnel",
+      "x": 96.3, "y": -104.3,
+      "b": [105]
+    },
+    {
+      "i": 185,
+      "n": "Gelmir Hero's Grave",
+      "x": 92.4, "y": -102.4,
+      "b": [102]
+    },
+    {
+      "i": 186,
+      "n": "First Mt. Gelmir Campsite",
+      "x": 95.5, "y": -100.8,
+      "b": []
+    },
+    {
+      "i": 187,
+      "n": "Bridge of Iniquity",
+      "x": 97.2, "y": -102.1,
+      "b": [95]
+    },
+    {
+      "i": 188,
+      "n": "Shaded Castle Ramparts",
+      "x": 99.2, "y": -99.5,
+      "b": []
+    },
+    {
+      "i": 189,
+      "n": "Shaded Castle Inner Gate",
+      "x": 98.2, "y": -98.0,
+      "b": [84]
+    },
+    {
+      "i": 190,
+      "n": "Castellan's Hall",
+      "x": 98.1, "y": -97.5,
+      "b": []
+    },
+
+    {
+      "i": 192,
+      "n": "Altus Plateau",
+      "x": 95.5, "y": -113.3,
+      "b": [91]
+    },
+    {
+      "i": 193,
+      "n": "Erdtree-Gazing Hill",
+      "x": 94.4, "y": -109.4,
+      "b": []
+    },
+    {
+      "i": 194,
+      "n": "Altus Highway Junction",
+      "x": 100.3, "y": -110.7,
+      "b": [99]
+    },
+    {
+      "i": 195,
+      "n": "Perfumer's Grotto",
+      "x": 107.5, "y": -110.5,
+      "b": [111]
+    },
+    {
+      "i": 196,
+      "n": "Outer Wall Phantom Tree",
+      "x": 110.1, "y": -111.4,
+      "b": [93, 92, 94]
+    },
+    {
+      "i": 197,
+      "n": "Sainted Hero's Grave",
+      "x": 103.4, "y": -106.6,
+      "b": [113, 96]
+    },
+    {
+      "i": 198,
+      "n": "Altus Tunnel",
+      "x": 106.1, "y": -106.0,
+      "b": [101]
+    },
+    {
+      "i": 199,
+      "n": "Rampartside Path",
+      "x": 108.3, "y": -106.5,
+      "b": [106]
+    },
+    {
+      "i": 200,
+      "n": "Forest-Spanning Greatbridge",
+      "x": 104.6, "y": -104.9,
+      "b": []
+    },
+    {
+      "i": 201,
+      "n": "Bower of Bounty",
+      "x": 102.8, "y": -103.8,
+      "b": [83]
+    },
+    {
+      "i": 202,
+      "n": "Road of Iniquity Side Path",
+      "x": 103.9, "y": -97.1,
+      "b": []
+    },
+    {
+      "i": 203,
+      "n": "Windmill Village",
+      "x": 108.0, "y": -97.8,
+      "b": [76]
+    },
+    {
+      "i": 204,
+      "n": "Windmill Heights",
+      "x": 110.1, "y": -95.1,
+      "b": []
+    },
+    {
+      "i": 205,
+      "n": "Outer Wall Battleground",
+      "x": 113.9, "y": -104.1,
+      "b": [100]
+    },
+    {
+      "i": 206,
+      "n": "Hermit Merchant's Shack",
+      "x": 115.0, "y": -102.3,
+      "b": [82]
+    },
+    {
+      "i": 207,
+      "n": "Divine Tower of West Altus",
+      "x": 114.1, "y": -120.3,
+      "b": []
+    },
+    {
+      "i": 208,
+      "n": "Divine Tower of West Altus: Gate",
+      "x": 114.3, "y": -118.3,
+      "b": []
+    },
+    {
+      "i": 209,
+      "n": "Minor Erdtree Church",
+      "x": 113.1, "y": -115.5,
+      "b": []
+    },
+    {
+      "i": 210,
+      "n": "Sealed Tunnel",
+      "x": 113.9, "y": -113.7,
+      "b": [103]
+    },
+    {
+      "i": 211,
+      "n": "Divine Bridge",
+      "x": 116.3, "y": -113.2,
+      "b": []
+    },
+    {
+      "i": 212,
+      "n": "Fortified Manor, First Floor",
+      "x": 118.1, "y": -112.8,
+      "b": []
+    },
+    {
+      "i": 213,
+      "n": "West Capital Rampart",
+      "x": 119.8, "y": -113.0,
+      "b": []
+    },
+    {
+      "i": 214,
+      "n": "Lower Capital Church",
+      "x": 119.7, "y": -112.0,
+      "b": [80]
+    },
+    {
+      "i": 215,
+      "n": "Erdtree Sanctuary",
+      "x": 121.1, "y": -114.7,
+      "b": [115]
+    },
+    {
+      "i": 216,
+      "n": "Queen's Bedchamber",
+      "x": 122.4, "y": -113.4,
+      "b": [119, 121]
+    },
+    {
+      "i": 217,
+      "n": "Elden Throne",
+      "x": 123.9, "y": -115.2,
+      "b": [122]
+    },
+    {
+      "i": 218,
+      "n": "Divine Tower of East Altus",
+      "x": 133.0, "y": -117.4,
+      "b": []
+    },
+    {
+      "i": 219,
+      "n": "Divine Tower of East Altus: Gate",
+      "x": 132.8, "y": -116.2,
+      "b": []
+    },
+    {
+      "i": 220,
+      "n": "Leyndell Catacombs",
+      "x": 121.1, "y": -112.1,
+      "b": [114]
+    },
+    {
+      "i": 221,
+      "n": "Avenue Balcony",
+      "x": 120.3, "y": -111.6,
+      "b": [117]
+    },
+    {
+      "i": 222,
+      "n": "Lyndell, Capital of Ash",
+      "x": 121.0, "y": -110.6,
+      "b": []
+    },
+    {
+      "i": 223,
+      "n": "Forsaken Depths",
+      "x": 122.2, "y": -111.0,
+      "b": [118]
+    },
+    {
+      "i": 224,
+      "n": "Underground Roadside",
+      "x": 120.8, "y": -111.4,
+      "b": []
+    },
+    {
+      "i": 225,
+      "n": "East Capital Rampart",
+      "x": 122.5, "y": -109.9,
+      "b": []
+    },
+    {
+      "i": 226,
+      "n": "Cathedral of the Forsaken",
+      "x": 123.9, "y": -109.9,
+      "b": []
+    },
+    {
+      "i": 227,
+      "n": "Auriza Hero's Grave",
+      "x": 123.8, "y": -108.5,
+      "b": [89, 81]
+    },
+    {
+      "i": 228,
+      "n": "Auriza Side Tomb",
+      "x": 124.6, "y": -106.7,
+      "b": [79]
+    },
+    {
+      "i": 229,
+      "n": "Capital Rampart",
+      "x": 122.0, "y": -107.9,
+      "b": []
+    },
+    {
+      "i": 230,
+      "n": "Forbidden Lands",
+      "x": 131.8, "y": -111.3,
+      "b": [110]
+    },
+    {
+      "i": 231,
+      "n": "Isolated Divine Tower",
+      "x": 146.5, "y": -132.1,
+      "b": []
+    },
+
+    {
+      "i": 232,
+      "n": "Grand Lift of Rold",
+      "x": 138.7, "y": -104.2,
+      "b": [130]
+    },
+    {
+      "i": 233,
+      "n": "Church of Repose",
+      "x": 146.1, "y": -103.7,
+      "b": []
+    },
+    {
+      "i": 234,
+      "n": "Foot of the Forge",
+      "x": 149.7, "y": -103.4,
+      "b": [127]
+    },
+    {
+      "i": 235,
+      "n": "Fire Giant",
+      "x": 153.4, "y": -106.3,
+      "b": []
+    },
+    {
+      "i": 236,
+      "n": "Forge of the Giants",
+      "x": 158.4, "y": -102.7,
+      "b": []
+    },
+    {
+      "i": 237,
+      "n": "Giants' Gravepost",
+      "x": 150.0, "y": -97.7,
+      "b": []
+    },
+    {
+      "i": 238,
+      "n": "Giants' Mountaintop Catacombs",
+      "x": 143.2, "y": -100.5,
+      "b": [128]
+    },
+    {
+      "i": 239,
+      "n": "Giant-Conquering Hero's Grave",
+      "x": 141.4, "y": -100.8,
+      "b": [126]
+    },
+    {
+      "i": 240,
+      "n": "Zamor Ruins",
+      "x": 140.1, "y": -101.2,
+      "b": []
+    },
+    {
+      "i": 241,
+      "n": "Hidden Path to the Haligtree",
+      "x": 136.9, "y": -100.5,
+      "b": []
+    },
+    {
+      "i": 242,
+      "n": "Consecrated Snowfield",
+      "x": 137.2, "y": -98.7,
+      "b": []
+    },
+    {
+      "i": 243,
+      "n": "Consecrated Snowfield Catacombs",
+      "x": 141.6, "y": -95.8,
+      "b": [134]
+    },
+    {
+      "i": 244,
+      "n": "Yelough Anix Tunnel",
+      "x": 131.6, "y": -96.0,
+      "b": [132]
+    },
+    {
+      "i": 245,
+      "n": "Inner Consecrated Snowfield",
+      "x": 137.1, "y": -93.1,
+      "b": []
+    },
+    {
+      "i": 246,
+      "n": "Apostate Derelict",
+      "x": 131.6, "y": -83.1,
+      "b": [135]
+    },
+    {
+      "i": 247,
+      "n": "Ordina, Liturgical Town",
+      "x": 135.4, "y": -87.2,
+      "b": [136]
+    },
+    {
+      "i": 248,
+      "n": "Cave of the Forlorn",
+      "x": 141.7, "y": -90.2,
+      "b": [137, 131]
+    },
+    {
+      "i": 249,
+      "n": "Ancient Snow Valley Ruins",
+      "x": 146.9, "y": -91.6,
+      "b": []
+    },
+    {
+      "i": 250,
+      "n": "Whiteridge Road",
+      "x": 151.6, "y": -92.6,
+      "b": []
+    },
+    {
+      "i": 251,
+      "n": "First Church of Marika",
+      "x": 158.4, "y": -93.5,
+      "b": []
+    },
+    {
+      "i": 252,
+      "n": "Spiritcaller's Cave",
+      "x": 154.3, "y": -89.1,
+      "b": [138, 139]
+    },
+    {
+      "i": 253,
+      "n": "Freezing Lake",
+      "x": 152.1, "y": -85.5,
+      "b": []
+    },
+    {
+      "i": 254,
+      "n": "Snow Valley Ruins Overlook",
+      "x": 148.5, "y": -87.5,
+      "b": [123, 124]
+    },
+    {
+      "i": 255,
+      "n": "Castle Sol Main Gate",
+      "x": 146.4, "y": -85.7,
+      "b": [129]
+    },
+    {
+      "i": 256,
+      "n": "Church of the Eclipse",
+      "x": 147.8, "y": -84.7,
+      "b": [125]
+    },
+    {
+      "i": 257,
+      "n": "Castle Sol Rooftop",
+      "x": 148.2, "y": -83.5,
+      "b": []
+    },
+    {
+      "i": 258,
+      "n": "Haligtree Canopy",
+      "x": 140.6, "y": -77.4,
+      "b": []
+    },
+    {
+      "i": 259,
+      "n": "Haligtree Town",
+      "x": 141.4, "y": -74.7,
+      "b": [133]
+    },
+    {
+      "i": 260,
+      "n": "Haligtree Town Plaza",
+      "x": 140.4, "y": -73.5,
+      "b": []
+    },
+    {
+      "i": 261,
+      "n": "Haligtree Promenade",
+      "x": 143.3, "y": -73.5,
+      "b": []
+    },
+    {
+      "i": 262,
+      "n": "Prayer Room",
+      "x": 141.9, "y": -71.4,
+      "b": []
+    },
+    {
+      "i": 263,
+      "n": "Drainage Channel",
+      "x": 142.5, "y": -70.5,
+      "b": []
+    },
+    {
+      "i": 264,
+      "n": "Haligtree Roots",
+      "x": 141.8, "y": -69.6,
+      "b": [140]
+    },
+    {
+      "i": 265,
+      "n": "Malenia, Goddess of Rot",
+      "x": 140.2, "y": -70.3,
+      "b": []
+    },
+    {
+      "i": 266,
+      "n": "Elphael Inner Wall",
+      "x": 140.1, "y": -68.8,
+      "b": []
+    },
+
+    {
+      "i": 267,
+      "n": "Maliketh, the Black Blade",
+      "x": 189.1, "y": -126.4,
+      "b": []
+    },
+    {
+      "i": 268,
+      "n": "Crumbling Beast Grave",
+      "x": 187.1, "y": -129.6,
+      "b": []
+    },
+    {
+      "i": 269,
+      "n": "Crumbling Beast Grave Depths",
+      "x": 183.9, "y": -128.9,
+      "b": []
+    },
+    {
+      "i": 270,
+      "n": "Tempest-Facing Balcony",
+      "x": 184.1, "y": -127.8,
+      "b": []
+    },
+    {
+      "i": 271,
+      "n": "Dragon Temple Transept",
+      "x": 186.0, "y": -126.5,
+      "b": [141]
+    },
+    {
+      "i": 272,
+      "n": "Dragon Temple",
+      "x": 184.2, "y": -125.9,
+      "b": []
+    },
+    {
+      "i": 273,
+      "n": "Dragon Temple Altar",
+      "x": 185.8, "y": -125.7,
+      "b": []
+    },
+    {
+      "i": 274,
+      "n": "Beside the Great Bridge",
+      "x": 186.3, "y": -124.3,
+      "b": [142, 143, 144]
+    },
+    {
+      "i": 275,
+      "n": "Dragon Temple Lift",
+      "x": 184.3, "y": -124.4,
+      "b": []
+    },
+    {
+      "i": 276,
+      "n": "Dragon Temple Rooftop",
+      "x": 186.8, "y": -122.9,
+      "b": []
+    }
+  ]
+}
