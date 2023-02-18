@@ -1,5 +1,5 @@
 import { App } from "../../../App";
-import { ContentType } from "../../../constants/ContentType";
+import { ContentType } from "../../../constants/Constants";
 import { Content } from "./Content";
 
 export class BaseContent {

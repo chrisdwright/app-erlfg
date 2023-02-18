@@ -1,7 +1,5 @@
 import { App } from "../App";
-import { AccountType } from "../constants/AccountType";
-import { RequestType } from "../constants/CRequest";
-import { PlatformType } from "../constants/PlatformType";
+import { AccountType, PlatformType, RequestType } from "../constants/Constants";
 import { C2S, S2C } from "../constants/Routes";
 import { Utils } from "../Utils";
 

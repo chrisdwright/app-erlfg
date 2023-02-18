@@ -12,7 +12,7 @@ export class Timer {
 		this.tick();
 	}
 
-	tick() {
+	private tick() {
 		var currentTime = Date.now();
 		var deltaTime = currentTime - this.lastTime;
 		this.callback(deltaTime);

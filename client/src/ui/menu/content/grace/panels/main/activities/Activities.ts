@@ -1,5 +1,5 @@
 import { App } from "../../../../../../../App";
-import { RequestType } from "../../../../../../../constants/CRequest";
+import { RequestType } from "../../../../../../../constants/Constants";
 import { MainPanel } from "../MainPanel";
 import { Option } from "./Option";
 

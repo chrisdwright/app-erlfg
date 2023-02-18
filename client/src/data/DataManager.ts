@@ -1,14 +1,15 @@
 import * as $ from "jquery";
 import { App } from "../App";
-import { Constants } from "../constants/Constants";
-import { ModeType } from "../constants/ModeType";
-import { PlatformType } from "../constants/PlatformType";
+import { Constants, ModeType, PlatformType } from "../constants/Constants";
 import { BossData } from "./BossData";
 import { MarkerData } from "./MarkerData";
+import { RequestData } from "./RequestData";
 
 export class DataManager {
 
   private app: App;
+
+  public requests: RequestData = new RequestData();
 
   public markers: MarkerData[] = [];
   public bosses: BossData[] = [];

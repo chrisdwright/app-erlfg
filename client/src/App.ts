@@ -1,7 +1,7 @@
-import { Constants } from "./constants/Constants";
-import { PlatformType } from "./constants/PlatformType";
+import { Constants, PlatformType } from "./constants/Constants";
 import { DataManager } from "./data/DataManager";
 import { EventManager } from "./event/EventManager";
+import { Icons } from "./Icons";
 import { MapManager } from "./map/MapManager";
 import { NetworkManager } from "./network/NetworkManager";
 import { UIManager } from "./ui/UIManager";
@@ -13,6 +13,8 @@ export class App {
   public net: NetworkManager;
   public map: MapManager;
   public ui: UIManager;
+
+  public icons: Icons = new Icons();
 
   constructor() {
     this.data = new DataManager(this, () => {

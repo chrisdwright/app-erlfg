@@ -1,6 +1,5 @@
 import { App } from "../../App";
-import { MapLayer } from "../../constants/CMap";
-import { PlatformType } from "../../constants/PlatformType";
+import { MapLayer, PlatformType } from "../../constants/Constants";
 import { Button, Type } from "./Button";
 
 export class Toolbar {
@@ -43,7 +42,7 @@ export class Toolbar {
 
     private refresh() {
         const currentPlatform = this.app.data.platform;
-        const currentLayer = this.app.map.layer;
+        const currentLayer = this.app.map.layers.layer;
         for (let i = 0; i < this.buttons.length; i++) {
             switch (this.buttons[i].type) {
                 case Type.PC: this.buttons[i].toggleSelected(currentPlatform == PlatformType.PC); break;

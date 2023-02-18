@@ -1,4 +1,4 @@
-import { PlatformType } from "../../constants/PlatformType";
+import { PlatformType } from "../../constants/Constants";
 import { User } from "./User";
 
 export class UserManager {

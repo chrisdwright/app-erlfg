@@ -1,7 +1,5 @@
 import { App } from "../../../../App";
-import { ContentType } from "../../../../constants/ContentType";
-import { ModeType } from "../../../../constants/ModeType";
-import { Marker } from "../../../../map/Marker";
+import { ContentType, ModeType } from "../../../../constants/Constants";
 import { BaseContent } from "../BaseContent";
 import { Content } from "../Content";
 import { AssistPanel } from "./panels/assist/AssistPanel";
@@ -44,9 +42,9 @@ export class GraceContent extends BaseContent {
       this.panels[i].toggle(type);
   }
 
-  private map_clickedMarker(marker: Marker) {
+  private map_clickedMarker(markerId: number) {
     if (this.app.data.mode != ModeType.IDLE) return;
-    this.app.data.markerId = marker.data.id;
+    this.app.data.markerId = markerId;
     this.setPanel(PanelType.MAIN);
   }
 

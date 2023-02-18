@@ -1,5 +1,5 @@
 import { App } from "../../../App";
-import { ContentType } from "../../../constants/ContentType";
+import { ContentType } from "../../../constants/Constants";
 import { Menu } from "../Menu";
 import { Tab } from "./Tab";
 

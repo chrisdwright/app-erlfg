@@ -1,6 +1,6 @@
 import { App } from "../../../../App";
-import { ContentType } from "../../../../constants/ContentType";
-import { Marker } from "../../../../map/Marker";
+import { ContentType } from "../../../../constants/Constants";
+import { Marker } from "../../../../map/markers/Marker";
 import { BaseContent } from "../BaseContent";
 import { Content } from "../Content";
 

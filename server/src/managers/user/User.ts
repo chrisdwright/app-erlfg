@@ -1,7 +1,7 @@
 import { v4 as uuid } from "uuid";
 import WebSocket from "ws";
 import { App } from "../../app";
-import { PlatformType } from "../../constants/PlatformType";
+import { PlatformType } from "../../constants/Constants";
 import { C2S, S2C } from "../../constants/Routes";
 import { NameGenerator } from "../../generators/NameGenerator";
 import { Utils } from "../../utils/Utils";

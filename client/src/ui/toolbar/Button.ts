@@ -1,6 +1,5 @@
 import { App } from "../../App";
-import { MapLayer } from "../../constants/CMap";
-import { PlatformType } from "../../constants/PlatformType";
+import { MapLayer, PlatformType } from "../../constants/Constants";
 import { Toolbar } from "./Toolbar";
 
 export enum Type {
@@ -80,8 +79,8 @@ export class Button {
         case Type.PC: this.app.net.selectPlatform(PlatformType.PC); break;
         case Type.PLAYSTATION: this.app.net.selectPlatform(PlatformType.PLAYSTATION); break;
         case Type.XBOX: this.app.net.selectPlatform(PlatformType.XBOX); break;
-        case Type.ABOVE: this.app.map.setLayer(MapLayer.ABOVE_GROUND); break;
-        case Type.BELOW: this.app.map.setLayer(MapLayer.BELOW_GROUND); break;
+        case Type.ABOVE: this.app.map.layers.setLayer(MapLayer.ABOVE_GROUND); break;
+        case Type.BELOW: this.app.map.layers.setLayer(MapLayer.BELOW_GROUND); break;
       }
     });
   }

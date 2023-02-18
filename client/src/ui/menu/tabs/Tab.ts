@@ -1,5 +1,5 @@
 import { App } from "../../../App";
-import { ContentType } from "../../../constants/ContentType";
+import { ContentType } from "../../../constants/Constants";
 import { Tabs } from "./Tabs";
 
 export class Tab {

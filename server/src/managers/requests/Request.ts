@@ -1,6 +1,5 @@
 import { App } from "../../app";
-import { RequestType } from "../../constants/CRequest";
-import { PlatformType } from "../../constants/PlatformType";
+import { PlatformType, RequestType } from "../../constants/Constants";
 import { User } from "../user/User";
 
 export class Request {
