@@ -10,9 +10,9 @@
     ["altus", 192, 231],
     ["mountains", 232, 266],
     ["farum", 267, 276],
-    ["siofra", 0, 0],
-    ["ainsel", 0, 0],
-    ["deeproot", 0, 0]
+    ["siofra", 277, 290],
+    ["ainsel", 291, 300],
+    ["deeproot", 301, 306]
   ],
   "markers": [
     {
@@ -1670,6 +1670,189 @@
       "i": 276,
       "n": "Dragon Temple Rooftop",
       "x": 186.8, "y": -122.9,
+      "b": []
+    },
+
+    {
+      "i": 277,
+      "n": "Palace Approach Ledge-Road",
+      "x": 145.0, "y": -164.7,
+      "b": []
+    },
+    {
+      "i": 278,
+      "n": "Dynasty Mausoleum Entrance",
+      "x": 141.4, "y": -162.4,
+      "b": []
+    },
+    {
+      "i": 279,
+      "n": "Dynasty Mausoleum Midpoint",
+      "x": 140.7, "y": -162.8,
+      "b": [149]
+    },
+    {
+      "i": 280,
+      "n": "Cocoon of the Empyrean",
+      "x": 138.8, "y": -162.8,
+      "b": []
+    },
+    {
+      "i": 281,
+      "n": "Below The Well",
+      "x": 136.1, "y": -155.9,
+      "b": []
+    },
+    {
+      "i": 282,
+      "n": "Greater Waterfall Basin",
+      "x": 130.9, "y": -154.9,
+      "b": []
+    },
+    {
+      "i": 283,
+      "n": "Aqueduct-Facing Cliffs",
+      "x": 130.7, "y": -157.4,
+      "b": [147]
+    },
+    {
+      "i": 284,
+      "n": "Worshippers' Woods",
+      "x": 134.7, "y": -161.0,
+      "b": [146]
+    },
+    {
+      "i": 285,
+      "n": "Ancestral Woods",
+      "x": 127.9, "y": -161.6,
+      "b": [148]
+    },
+    {
+      "i": 286,
+      "n": "Night's Sacred Ground",
+      "x": 127.3, "y": -164.5,
+      "b": []
+    },
+    {
+      "i": 287,
+      "n": "Siofra River Bank",
+      "x": 129.6, "y": -165.0,
+      "b": [145]
+    },
+    {
+      "i": 288,
+      "n": "Mimic Tear",
+      "x": 128.3, "y": -167.1,
+      "b": []
+    },
+    {
+      "i": 289,
+      "n": "Siofra River Well Depths",
+      "x": 124.3, "y": -166.7,
+      "b": []
+    },
+    {
+      "i": 290,
+      "n": "Nokron, Eternal City",
+      "x": 123.4, "y": -165.5,
+      "b": []
+    },
+
+    {
+      "i": 291,
+      "n": "Ainsel River Main",
+      "x": 94.6, "y": -123.5,
+      "b": []
+    },
+    {
+      "i": 292,
+      "n": "Ainsel River Well Depths",
+      "x": 95.6, "y": -129.5,
+      "b": []
+    },
+    {
+      "i": 293,
+      "n": "Ainsel River Sluice Gate",
+      "x": 92.7, "y": -130.8,
+      "b": []
+    },
+    {
+      "i": 294,
+      "n": "Ainsel River Downstream",
+      "x": 89.6, "y": -129.5,
+      "b": [152]
+    },
+    {
+      "i": 295,
+      "n": "Nokstella, Eternal City",
+      "x": 90.0, "y": -126.5,
+      "b": []
+    },
+    {
+      "i": 296,
+      "n": "Dragonkin Soldier of Nokstella",
+      "x": 87.5, "y": -125.8,
+      "b": []
+    },
+    {
+      "i": 297,
+      "n": "Nokstella Waterfall Basin",
+      "x": 85.8, "y": -125.3,
+      "b": []
+    },
+    {
+      "i": 298,
+      "n": "Lake of Rot Shoreside",
+      "x": 84.7, "y": -128.5,
+      "b": [151]
+    },
+    {
+      "i": 299,
+      "n": "Grand Cloister",
+      "x": 83.0, "y": -135.9,
+      "b": [150]
+    },
+    {
+      "i": 300,
+      "n": "Astel, Naturalborn of the Void",
+      "x": 77.3, "y": -152.0,
+      "b": []
+    },
+
+    {
+      "i": 301,
+      "n": "Prince of Death's Throne",
+      "x": 122.2, "y": -105.3,
+      "b": [154]
+    },
+    {
+      "i": 302,
+      "n": "Across the Roots",
+      "x": 121.4, "y": -108.2,
+      "b": [156]
+    },
+    {
+      "i": 303,
+      "n": "The Nameless Eternal City",
+      "x": 117.5, "y": -108.8,
+      "b": [155]
+    },
+    {
+      "i": 304,
+      "n": "Root-Facing Cliffs",
+      "x": 125.4, "y": -110.5,
+      "b": []
+    },
+    {
+      "i": 305,
+      "n": "Great Waterfall Crest",
+      "x": 125.5, "y": -112.3,
+      "b": [157]
+    },
+    {
+      "i": 306,
+      "n": "Deeproot Depths",
+      "x": 119.2, "y": -111.9,
       "b": []
     }
   ]

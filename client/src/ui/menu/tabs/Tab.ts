@@ -26,6 +26,7 @@ export class Tab {
     this.containerDiv.style.marginTop = "5px";
     this.containerDiv.style.backgroundColor = "black";
     this.containerDiv.style.pointerEvents = "auto";
+    this.containerDiv.style.cursor = "pointer";
     this.parent.tabsDiv.appendChild(this.containerDiv);
 
     switch (this.type) {

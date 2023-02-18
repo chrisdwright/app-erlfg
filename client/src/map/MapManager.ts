@@ -12,6 +12,10 @@ export class MapManager {
   public map: L.Map;
   public aboveLayer: L.Layer;
   public belowLayer: L.Layer;
+
+  public active: L.LayerGroup;
+  public aboveIdle: L.LayerGroup;
+  public belowIdle: L.LayerGroup;
   public markers: Marker[] = [];
 
   public layer: MapLayer = MapLayer.ABOVE_GROUND;
@@ -20,8 +24,12 @@ export class MapManager {
     this.app = app;
     this.icons = new Icons();
 
+    this.app.event.request_receivedList.register(this.request_receivedList.bind(this));
+    this.app.event.request_addedRequest.register(this.request_addedRequest.bind(this));
+    this.app.event.request_removedRequest.register(this.request_removedRequest.bind(this));
+
     this.createMap();
-    this.createMarkers();
+    //this.createMarkers();
   }
 
   public setLayer(layer: MapLayer) {
@@ -60,7 +68,9 @@ export class MapManager {
     });
 
     this.map.on("zoomend", (ev: any) => {
-      //console.log(ev);
+      console.log(this.map.getZoom());
+      const zoom = this.map.getZoom();
+
       // TODO: Change visible markers based on zoom level
       // All markers visible above "4"?
       // Active markers visible at any level
@@ -94,6 +104,22 @@ export class MapManager {
       var newMarker = new Marker(this.app, markerData[i], this.map, this.icons);
       this.markers.push(newMarker);
     }
+  }
+
+  private refresh() {
+
+  }
+
+  private request_receivedList() {
+    this.refresh();
+  }
+
+  private request_addedRequest() {
+    this.refresh();
+  }
+
+  private request_removedRequest() {
+    this.refresh();
   }
 
 }

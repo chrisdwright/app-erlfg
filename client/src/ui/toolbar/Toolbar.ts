@@ -21,7 +21,7 @@ export class Toolbar {
 
     private init() {
         this.containerDiv = document.createElement("div");
-        this.containerDiv.style.width = "260px";
+        this.containerDiv.style.width = "265px";
         this.containerDiv.style.height = "60px";
         this.containerDiv.style.position = "absolute";
         this.containerDiv.style.padding = "0px 12px";

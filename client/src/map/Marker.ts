@@ -24,4 +24,8 @@ export class Marker {
     });
   }
 
+  public sort() {
+
+  }
+
 }

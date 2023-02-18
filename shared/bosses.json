@@ -150,20 +150,19 @@
     { "i": 143, "n": "Dragonlord Placidusax" },
     { "i": 144, "n": "Beast Clergyman" },
 
-    { "i": 1410, "n": "Ancestor Spirit" },
-    { "i": 1420, "n": "Dragonkin Soldier" },
-    { "i": 1430, "n": "Valiant Gargoyle Duo" },
-    { "i": 1440, "n": "Regal Ancestor Spirit" },
-    { "i": 1450, "n": "Mohg, Lord of Blood" },
+    { "i": 145, "n": "Ancestor Spirit" },
+    { "i": 146, "n": "Dragonkin Soldier" },
+    { "i": 147, "n": "Valiant Gargoyle Duo" },
+    { "i": 148, "n": "Regal Ancestor Spirit" },
+    { "i": 149, "n": "Mohg, Lord of Blood" },
 
-    { "i": 1460, "n": "Astel, Naturalborn of the Void" },
-    { "i": 1470, "n": "Dragonkin Soldier" },
-    { "i": 1480, "n": "Dragonkin Solider of Nokstella" },
+    { "i": 150, "n": "Astel, Naturalborn of the Void" },
+    { "i": 151, "n": "Dragonkin Soldier" },
+    { "i": 152, "n": "Dragonkin Solider of Nokstella" },
 
-    { "i": 1490, "n": "Lichdragon Fortissax" },
-    { "i": 1500, "n": "Crucible Knight Siluria" },
-    { "i": 1510, "n": "Fia's Champions" },
-    { "i": 1520, "n": "Erdtree Avatar" }
-
+    { "i": 154, "n": "Lichdragon Fortissax" },
+    { "i": 155, "n": "Crucible Knight Siluria" },
+    { "i": 156, "n": "Fia's Champions" },
+    { "i": 157, "n": "Erdtree Avatar" }
   ]
 }

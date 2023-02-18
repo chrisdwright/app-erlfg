@@ -56,13 +56,13 @@ export class Button {
         filename = "above.png";
         width = 30;
         height = 30;
-        left = 170;
+        left = 173;
         break;
       case Type.BELOW:
         filename = "below.png";
         width = 30;
         height = 30;
-        left = 215;
+        left = 217;
         break;
     }
 
