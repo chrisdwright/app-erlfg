@@ -46,6 +46,9 @@ export class Tab {
       case ContentType.ACCOUNT:
         this.containerDiv.style.backgroundImage = "url('images/menu/tabs/account.png')";
         break;
+      case ContentType.ABOUT:
+        this.containerDiv.style.backgroundImage = "url('images/menu/tabs/about.png')";
+        break;
     }
 
     this.containerDiv.addEventListener("pointerdown", (ev) => {

@@ -20,6 +20,7 @@ export class Tabs {
   public chatTab: Tab;
   public feedbackTab: Tab;
   public accountTab: Tab;
+  public aboutTab: Tab;
 
   constructor(app: App, parent: Menu) {
     this.app = app;
@@ -57,6 +58,8 @@ export class Tabs {
     this.chatTab = new Tab(this.app, this, ContentType.CHAT);
     this.feedbackTab = new Tab(this.app, this, ContentType.FEEDBACK);
     this.accountTab = new Tab(this.app, this, ContentType.ACCOUNT);
+    this.aboutTab = new Tab(this.app, this, ContentType.ABOUT);
+
   }
 
 }

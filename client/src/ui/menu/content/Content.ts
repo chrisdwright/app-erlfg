@@ -1,6 +1,7 @@
 import { App } from "../../../App";
 import { ContentType } from "../../../constants/Constants";
 import { Menu } from "../Menu";
+import { AboutContent } from "./about/AboutContent";
 import { AccountContent } from "./account/AccountContent";
 import { BaseContent } from "./BaseContent";
 import { ChatContent } from "./chat/ChatContent";
@@ -76,6 +77,7 @@ export class Content {
     this.contents.push(new ChatContent(this.app, this));
     this.contents.push(new FeedbackContent(this.app, this));
     this.contents.push(new AccountContent(this.app, this));
+    this.contents.push(new AboutContent(this.app, this));
 
     this.containerDiv.addEventListener("transitionend", () => {
       if (this.state == ContentState.OPENING)

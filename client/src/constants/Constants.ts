@@ -33,5 +33,5 @@ export enum MarkerLayer {
 }
 
 export enum ContentType {
-  HOME, GRACE, CHAT, FEEDBACK, ACCOUNT
+  HOME, GRACE, CHAT, FEEDBACK, ACCOUNT, ABOUT
 }
