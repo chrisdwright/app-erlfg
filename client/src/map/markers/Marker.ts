@@ -36,11 +36,14 @@ export class Marker {
     if (requests.length > 0) {
       if (this.layer == MarkerLayer.ACTIVE) return;
       this.addTo(MarkerLayer.ACTIVE);
-      // TODO: change icon to active
+
+      // TODO: set proper icon once duels are implemented
+      this.asset.setIcon(this.app.icons.get(1, 0));
     } else {
       const layer = this.data.id < 277 ? MarkerLayer.ABOVE_IDLE : MarkerLayer.BELOW_IDLE;
       if (this.layer == layer) return;
       this.addTo(layer);
+      this.asset.setIcon(this.app.icons.get(0, 0));
     }
   }
 

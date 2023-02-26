@@ -6,11 +6,20 @@ export class Icons {
 
   constructor() {
     this.icons.push(new Icon("idle", [50, 50], [25, 25], [-3, -76]));
+    this.icons.push(new Icon("pve", [50, 50], [25, 25], [-3, -76]));
+    this.icons.push(new Icon("pvp", [50, 50], [25, 25], [-3, -76]));
+    this.icons.push(new Icon("pvevp", [50, 50], [25, 25], [-3, -76]));
   }
 
   public get(numOfPvE: number, numOfPvP: number) {
     if (numOfPvE == 0 && numOfPvP == 0)
       return this.getById("idle").asset;
+    else if (numOfPvE > 0 && numOfPvP == 0)
+      return this.getById("pve").asset;
+    else if (numOfPvE == 0 && numOfPvP > 0)
+      return this.getById("pvp").asset;
+    else if (numOfPvE > 0 && numOfPvP > 0)
+      return this.getById("pvevp").asset;
   }
 
   private getById(id: string) {

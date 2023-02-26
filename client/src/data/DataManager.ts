@@ -28,8 +28,9 @@ export class DataManager {
   }
 
   public setPlatform(platform: PlatformType) {
-    localStorage.setItem(Constants.LS_LAST_PLATFORM, platform.toString());
     this.platform = platform;
+
+    localStorage.setItem(Constants.LS_LAST_PLATFORM, platform.toString());
     this.app.event.data_updatedPlatform.emit();
   }
 

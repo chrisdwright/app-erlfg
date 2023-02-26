@@ -31,7 +31,7 @@ export class App {
   private onConnected() {
     //const lastAccountType = localStorage.getItem(Constants.LS_LAST_ACCOUNT_TYPE);
     const lastPlatform = localStorage.getItem(Constants.LS_LAST_PLATFORM);
-    this.net.selectPlatform(lastPlatform ? parseInt(lastPlatform) : PlatformType.PC);
+    this.net.network.selectPlatform(lastPlatform ? parseInt(lastPlatform) : PlatformType.PC);
 
     //this.net.signIn(
     //  (lastAccountType ? parseInt(lastAccountType) : AccountType.GUEST),

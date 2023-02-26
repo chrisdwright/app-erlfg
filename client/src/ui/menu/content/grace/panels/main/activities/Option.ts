@@ -45,7 +45,7 @@ export class Option {
     this.containerDiv.style.display = "flex";
     this.containerDiv.style.alignItems = "center";
     this.containerDiv.style.justifyContent = "start";
-    this.containerDiv.style.textAlign = "center";
+    //this.containerDiv.style.textAlign = "center";
     this.containerDiv.style.fontSize = "16px";
     this.containerDiv.style.fontWeight = "bold";
     this.containerDiv.style.textShadow = "1px 1px #000000";
@@ -61,7 +61,8 @@ export class Option {
   }
 
   private onMouseOver() {
-    this.containerDiv.style.background = "url('images/map/markers/grace2.png') no-repeat";
+    // TODO: show pvp image for duels
+    this.containerDiv.style.background = "url('images/map/markers/pve.png') no-repeat";
     this.containerDiv.style.backgroundSize = "auto 100%";
   }
 
@@ -71,7 +72,7 @@ export class Option {
   }
 
   private onMouseDown() {
-    //this.parent.selectOption(this.index);
+    this.parent.selectOption(this.type, this.bossId);
   }
 
 }

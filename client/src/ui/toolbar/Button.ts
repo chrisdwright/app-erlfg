@@ -76,9 +76,9 @@ export class Button {
 
     this.containerDiv.addEventListener("pointerdown", (ev) => {
       switch (this.type) {
-        case Type.PC: this.app.net.selectPlatform(PlatformType.PC); break;
-        case Type.PLAYSTATION: this.app.net.selectPlatform(PlatformType.PLAYSTATION); break;
-        case Type.XBOX: this.app.net.selectPlatform(PlatformType.XBOX); break;
+        case Type.PC: this.app.net.network.selectPlatform(PlatformType.PC); break;
+        case Type.PLAYSTATION: this.app.net.network.selectPlatform(PlatformType.PLAYSTATION); break;
+        case Type.XBOX: this.app.net.network.selectPlatform(PlatformType.XBOX); break;
         case Type.ABOVE: this.app.map.layers.setLayer(MapLayer.ABOVE_GROUND); break;
         case Type.BELOW: this.app.map.layers.setLayer(MapLayer.BELOW_GROUND); break;
       }

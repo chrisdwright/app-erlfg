@@ -49,7 +49,7 @@ export class Activities {
 
   public selectOption(type: RequestType, bossId: number = 0) {
     const markerId = this.app.data.markerId;
-    this.app.net.createRequest(markerId, type, bossId);
+    this.app.net.request.create(markerId, type, bossId);
   }
 
   private init() {
