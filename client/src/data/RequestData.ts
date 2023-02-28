@@ -39,6 +39,7 @@ export class RD_Request {
 
     public requestId: number;
     public markerId: number;
+    public bossId: number;
 
     public type: RequestType;
     public timestamp: number;
@@ -47,10 +48,11 @@ export class RD_Request {
     constructor(json: any) {
         this.requestId = json[0];
         this.markerId = json[1];
+        this.bossId = json[2];
 
-        this.type = json[2];
-        this.timestamp = json[3];
-        this.displayName = json[4];
+        this.type = json[3];
+        this.timestamp = json[4];
+        this.displayName = json[5];
     }
 
 }

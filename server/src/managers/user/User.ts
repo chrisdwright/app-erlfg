@@ -101,6 +101,7 @@ export class User {
   private request_createNew(message: any) {
     const markerId = message.i;
     const activityType = message.t;
+    const bossId = message.b;
 
     // TODO: validate client input
 
@@ -113,6 +114,7 @@ export class User {
     newRequest.type = activityType;
     newRequest.platform = this.platform;
     newRequest.markerId = markerId;
+    newRequest.bossId = bossId;
     newRequest.requester = this;
     this.app.requests.add(newRequest);
 

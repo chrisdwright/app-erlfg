@@ -1,5 +1,6 @@
 import { App } from "../../../../App";
 import { ContentType } from "../../../../constants/Constants";
+import { TitleBox } from "../../components/TitleBox";
 import { BaseContent } from "../BaseContent";
 import { Content } from "../Content";
 
@@ -12,7 +13,7 @@ export class ChatContent extends BaseContent {
   }
 
   private init() {
-    //this.containerDiv.style.backgroundColor = "blue";
+    new TitleBox(this.app, this.containerDiv, "Communication");
   }
 
 }

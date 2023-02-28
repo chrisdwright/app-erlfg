@@ -21,6 +21,7 @@ export class EmptyPanel extends BasePanel {
     this.emptyMessage.style.fontSize = "26px";
     this.emptyMessage.style.color = "white";
     this.emptyMessage.style.textAlign = "center";
+    this.emptyMessage.style.textShadow = "1px 1px #000000";
     this.emptyMessage.innerHTML = "Select a <br>Site of Grace";
     this.containerDiv.appendChild(this.emptyMessage);
   }

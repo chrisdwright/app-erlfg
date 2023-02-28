@@ -44,7 +44,7 @@ export class MapManager {
     var sw = this.map.unproject([2200, 14184], 6);
     var ne = this.map.unproject([14184, 2200], 6);
     var bounds = new L.LatLngBounds(sw, ne);
-    this.map.setMaxBounds(bounds)
+    //this.map.setMaxBounds(bounds)
 
     this.layers = new Layers(this.app, this, bounds);
     this.markers = new Markers(this.app, this);

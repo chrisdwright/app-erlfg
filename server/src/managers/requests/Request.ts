@@ -12,6 +12,7 @@ export class Request {
   public type: RequestType;
   public platform: PlatformType;
   public markerId: number;
+  public bossId: number;
   public requester: User;
 
   constructor(app: App) {
@@ -32,7 +33,7 @@ export class Request {
   }
 
   public getJSON() {
-    return [this.id, this.markerId, this.type, this.timestamp, this.requester.displayName];
+    return [this.id, this.markerId, this.bossId, this.type, this.timestamp, this.requester.displayName];
   }
 
 }
