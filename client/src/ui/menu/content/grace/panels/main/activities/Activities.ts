@@ -16,6 +16,7 @@ export class Activities {
 
   constructor(app: App, content: GraceContent, panel: MainPanel) {
     this.app = app;
+    this.content = content;
     this.panel = panel;
 
     this.init();
