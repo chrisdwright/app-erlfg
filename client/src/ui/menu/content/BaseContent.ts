@@ -5,35 +5,36 @@ import { Content } from "./Content";
 export class BaseContent {
 
   protected app: App;
-  protected parent: Content;
+  protected content: Content;
   public type: ContentType;
 
   public isAppended: boolean = false;
   public containerDiv: HTMLDivElement;
 
-  constructor(app: App, parent: Content, type: ContentType) {
+  constructor(app: App, content: Content, type: ContentType) {
     this.app = app;
-    this.parent = parent;
+    this.content = content;
     this.type = type;
 
     this.containerDiv = document.createElement("div");
     this.containerDiv.style.width = "392px";
     this.containerDiv.style.height = "100%";
-    //this.containerDiv.style.overflow = "hidden";
+    this.containerDiv.style.display = "flex";
+    this.containerDiv.style.flexDirection = "column";
   }
 
   public append() {
     if (this.isAppended) return;
     this.isAppended = true;
 
-    this.parent.containerDiv.appendChild(this.containerDiv);
+    this.content.containerDiv.appendChild(this.containerDiv);
   }
 
   public remove() {
     if (!this.isAppended) return;
     this.isAppended = false;
 
-    this.parent.containerDiv.removeChild(this.containerDiv);
+    this.content.containerDiv.removeChild(this.containerDiv);
   }
 
   public refresh() { }

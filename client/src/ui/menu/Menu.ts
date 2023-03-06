@@ -37,7 +37,7 @@ export class Menu {
   }
 
   public menu_onClickedTab(type: ContentType) {
-    var currentType = this.content.getCurrentContentType();
+    const currentType = this.content.getCurrentContentType();
 
     this.tabs.setSelected(type);
     this.content.setContent(type);

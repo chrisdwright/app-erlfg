@@ -9,7 +9,8 @@ export class RequestBox {
     private data: RD_Request;
 
     public containerDiv: HTMLDivElement;
-    public bodyDiv: HTMLDivElement;
+    public timeDiv: HTMLDivElement;
+    public timer: number;
 
     constructor(app: App, div: HTMLDivElement, data: RD_Request) {
         this.app = app;
@@ -17,30 +18,56 @@ export class RequestBox {
         this.data = data;
 
         this.init();
+        this.timer = setInterval(() => {
+            const now = Date.now();
+            let diff = Math.ceil((now - this.data.timestamp) / 1000);
+
+            const hours = Math.floor(diff / 3600);
+            diff -= (hours * 3600);
+            const minutes = Math.floor(diff / 60);
+            diff -= (minutes * 60);
+            const seconds = diff;
+
+            let time = "";
+            if (hours > 0) time += hours.toString() + "h";
+            if (minutes > 0) time += minutes.toString() + "m";
+            if (seconds > 0) time += seconds.toString() + "s";
+
+            this.timeDiv.innerText = time;
+        }, 1000, null);
+    }
+
+    public isRequest(requestId: number) {
+        return this.data.requestId == requestId;
+    }
+
+    public destroy() {
+        clearInterval(this.timer);
+        this.timer = null;
+
+        this.div.removeChild(this.containerDiv);
     }
 
     private init() {
         this.containerDiv = document.createElement("div");
-        this.containerDiv.style.width = "392px";
-        this.containerDiv.style.marginTop = "10px";
+        this.containerDiv.style.width = "344px";
+        this.containerDiv.style.marginTop = "5px";
         this.containerDiv.style.display = "flex";
         this.containerDiv.style.flexDirection = "column";
         this.div.appendChild(this.containerDiv);
 
         const top = document.createElement("img");
-        top.src = "images/menu/frame-double-top.png";
+        top.src = "images/menu/frames/double-top.png";
         this.containerDiv.appendChild(top);
 
-        this.bodyDiv = document.createElement("div");
-        this.bodyDiv.style.padding = "5px";
-        this.bodyDiv.style.paddingLeft = "45px";
-        this.bodyDiv.style.display = "flex";
-        //this.bodyDiv.style.flexDirection = "column";
-        this.bodyDiv.style.backgroundImage = "url('images/menu/frame-double-middle.png')";
-        this.containerDiv.appendChild(this.bodyDiv);
+        const body = document.createElement("div");
+        body.style.paddingLeft = "25px";
+        body.style.display = "flex";
+        body.style.backgroundImage = "url('images/menu/frames/double-middle.png')";
+        this.containerDiv.appendChild(body);
 
         const bottom = document.createElement("img");
-        bottom.src = "images/menu/frame-double-bottom.png";
+        bottom.src = "images/menu/frames/double-bottom.png";
         this.containerDiv.appendChild(bottom);
 
         // === Body Contents ===
@@ -51,7 +78,7 @@ export class RequestBox {
         iconDiv.style.height = "50px";
         iconDiv.style.fontSize = "18px";
         iconDiv.style.color = "white";
-        this.bodyDiv.appendChild(iconDiv);
+        body.appendChild(iconDiv);
 
         // set proper icon
         switch (this.data.type) {
@@ -75,17 +102,17 @@ export class RequestBox {
         infoDiv.style.flexGrow = "1";
         infoDiv.style.display = "flex";
         infoDiv.style.flexDirection = "column";
-        this.bodyDiv.appendChild(infoDiv);
+        body.appendChild(infoDiv);
+
+        // info top div 
 
         const infoTopDiv = document.createElement("div");
-        //infoTopDiv.style.backgroundColor = "orange";
         infoTopDiv.style.fontSize = "18px";
         infoTopDiv.style.color = "white";
         infoTopDiv.style.display = "flex";
         infoDiv.appendChild(infoTopDiv);
 
         const infoTopNameDiv = document.createElement("div");
-        //infoTopNameDiv.style.backgroundColor = "aqua";
         infoTopNameDiv.style.fontSize = "18px";
         infoTopNameDiv.style.textShadow = "1px 1px #000000";
         infoTopNameDiv.style.color = "white";
@@ -93,12 +120,13 @@ export class RequestBox {
         infoTopNameDiv.innerText = this.data.displayName;
         infoTopDiv.appendChild(infoTopNameDiv);
 
-        const infoTopTimeDiv = document.createElement("div");
-        infoTopTimeDiv.style.paddingRight = "50px";
-        infoTopTimeDiv.style.fontSize = "16px";
-        infoTopTimeDiv.style.color = "white";
-        infoTopTimeDiv.innerHTML = "3m27s";
-        infoTopDiv.appendChild(infoTopTimeDiv);
+        this.timeDiv = document.createElement("div");
+        this.timeDiv.style.paddingRight = "20px";
+        this.timeDiv.style.fontSize = "14px";
+        this.timeDiv.style.color = "white";
+        infoTopDiv.appendChild(this.timeDiv);
+
+        // info bottom div
 
         const infoBottomDiv = document.createElement("div");
         infoBottomDiv.style.paddingLeft = "20px";
@@ -111,7 +139,7 @@ export class RequestBox {
         infoBottomGraceDiv.style.fontSize = "12px";
         infoBottomGraceDiv.style.textShadow = "1px 1px #000000";
         infoBottomGraceDiv.style.color = "gold";
-        infoBottomGraceDiv.innerText = this.app.data.getMarkerById(this.data.markerId).name;
+        infoBottomGraceDiv.innerText = this.app.data.markers.getById(this.data.markerId).name;
         infoBottomDiv.appendChild(infoBottomGraceDiv);
 
         const infoBottomTypeDiv = document.createElement("div");
@@ -123,13 +151,12 @@ export class RequestBox {
 
         if (this.data.type == RequestType.DUEL) infoBottomTypeDiv.innerText = "Duel";
         if (this.data.bossId != 0) {
-            const bossData = this.app.data.getBossById(this.data.bossId);
+            const bossData = this.app.data.bosses.getById(this.data.bossId);
             switch (this.data.type) {
                 case RequestType.BOSS: infoBottomTypeDiv.innerText = bossData.name; break;
                 case RequestType.AREA_AND_BOSS: infoBottomTypeDiv.innerText = "Area + " + bossData.name; break;
             }
         }
-
     }
 
 }

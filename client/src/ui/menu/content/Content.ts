@@ -65,7 +65,6 @@ export class Content {
     this.containerDiv = document.createElement("div");
     this.containerDiv.style.width = "0px";
     this.containerDiv.style.height = "100%";
-    //this.containerDiv.style.backgroundColor = "black";
     this.containerDiv.style.transition = "width 0.5s";
     this.containerDiv.style.pointerEvents = "auto";
     this.containerDiv.style.overflow = "hidden";

@@ -26,7 +26,7 @@ export class MapManager {
       zoomSnap: 0.25,
       zoomDelta: 0.25,
       attributionControl: false
-    }).setView([-128, 128], 3);
+    }).setView([-128, 128], 2);
     this.map.zoomControl.setPosition("bottomleft");
 
     // map event listeners

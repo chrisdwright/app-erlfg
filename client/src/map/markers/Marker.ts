@@ -1,7 +1,7 @@
 import * as L from "leaflet";
 import { App } from "../../App";
 import { MarkerLayer } from "../../constants/Constants";
-import { MarkerData } from "../../data/MarkerData";
+import { MD_Marker } from "../../data/MarkerData";
 import { MapManager } from "../MapManager";
 import { Markers } from "./Markers";
 
@@ -10,12 +10,12 @@ export class Marker {
   private app: App;
   private manager: MapManager;
   private markers: Markers;
-  private data: MarkerData;
+  private data: MD_Marker;
 
   public asset: L.Marker;
   public layer: MarkerLayer = MarkerLayer.NONE;
 
-  constructor(app: App, manager: MapManager, markers: Markers, data: MarkerData) {
+  constructor(app: App, manager: MapManager, markers: Markers, data: MD_Marker) {
     this.app = app;
     this.manager = manager;
     this.markers = markers;

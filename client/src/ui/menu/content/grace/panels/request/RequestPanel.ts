@@ -4,8 +4,8 @@ import { BasePanel, PanelType } from "../BasePanel";
 
 export class RequestPanel extends BasePanel {
 
-  constructor(app: App, parent: GraceContent) {
-    super(app, parent, PanelType.REQUEST);
+  constructor(app: App, content: GraceContent) {
+    super(app, content, PanelType.REQUEST);
 
     this.init();
   }

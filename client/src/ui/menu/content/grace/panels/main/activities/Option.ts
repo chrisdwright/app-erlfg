@@ -27,7 +27,7 @@ export class Option {
   public setBoss(bossId: number) {
     this.bossId = bossId;
 
-    const bossData = this.app.data.getBossById(bossId);
+    const bossData = this.app.data.bosses.getById(bossId);
     switch (this.type) {
       case RequestType.BOSS: this.containerDiv.innerText = bossData.name; break;
       case RequestType.AREA_AND_BOSS: this.containerDiv.innerText = "Area + " + bossData.name; break;

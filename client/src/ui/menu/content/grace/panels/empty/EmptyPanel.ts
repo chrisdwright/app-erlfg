@@ -6,8 +6,8 @@ export class EmptyPanel extends BasePanel {
 
   public emptyMessage: HTMLDivElement;
 
-  constructor(app: App, parent: GraceContent) {
-    super(app, parent, PanelType.EMPTY);
+  constructor(app: App, content: GraceContent) {
+    super(app, content, PanelType.EMPTY);
 
     this.init();
   }

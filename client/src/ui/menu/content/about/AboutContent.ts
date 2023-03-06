@@ -15,9 +15,10 @@ export class AboutContent extends BaseContent {
     private init() {
         new TitleBox(this.app, this.containerDiv, "About");
         const attributions = document.createElement("div");
-        //attributions.style.width = "90%";
         attributions.style.padding = "30px";
         attributions.style.paddingTop = "10px";
+        //attributions.style.color = "white";
+        //attributions.style.textShadow = "1px 1px black";
         attributions.innerHTML = `
             <b>FromSoftware</a><br>
             <a href="https://en.bandainamcoent.eu/elden-ring/elden-ring">Elden Ring</a><br><br>

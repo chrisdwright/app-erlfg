@@ -35,7 +35,7 @@ export class Markers {
         this.aboveIdle = new L.LayerGroup();
         this.belowIdle = new L.LayerGroup();
 
-        var markerData = this.app.data.markers;
+        var markerData = this.app.data.markers.markers;
         for (let i = 0; i < markerData.length; i++) {
             const newMarker = new Marker(this.app, this.manager, this, markerData[i]);
             this.markers.push(newMarker);

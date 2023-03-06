@@ -48,9 +48,10 @@ export class RequestHandler extends BaseHandler {
     public added(message: any) {
         const data = message.d;
 
-        this.app.data.requests.addRequest(new RD_Request(data));
+        const newRequest = new RD_Request(data);
+        this.app.data.requests.addRequest(newRequest);
 
-        this.app.event.request_addedRequest.emit();
+        this.app.event.request_addedRequest.emit(newRequest);
     }
 
     public removed(message: any) {
@@ -59,7 +60,7 @@ export class RequestHandler extends BaseHandler {
         const request = this.app.data.requests.getByRequestId(requestId);
         this.app.data.requests.removeRequest(request);
 
-        this.app.event.request_removedRequest.emit();
+        this.app.event.request_removedRequest.emit(requestId);
     }
 
     //#endregion

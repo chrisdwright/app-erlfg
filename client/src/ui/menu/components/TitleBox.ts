@@ -27,7 +27,7 @@ export class TitleBox {
         this.div.appendChild(this.containerDiv);
 
         const topBar = document.createElement("img");
-        topBar.src = "images/menu/bar-horizontal.png";
+        topBar.src = "images/menu/frames/bar-horizontal.png";
         this.containerDiv.appendChild(topBar);
 
         this.titleDiv = document.createElement("div");
@@ -41,7 +41,7 @@ export class TitleBox {
         this.containerDiv.appendChild(this.titleDiv);
 
         const bottomBar = document.createElement("img");
-        bottomBar.src = "images/menu/bar-horizontal.png";
+        bottomBar.src = "images/menu/frames/bar-horizontal.png";
         this.containerDiv.appendChild(bottomBar);
 
         this.containerDiv = document.createElement("div");
